@@ -1,0 +1,15 @@
+{
+  "originHash" : "525970885d688788e887c9966e15d3b7c693851cb47cef75592a32c5056421ae",
+  "pins" : [
+    {
+      "identity" : "themingstyletest",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/felix-rvo/ThemingStyleTest.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3ccc1d408a1fe6f058c7f429a8cb5819ddd1c722"
+      }
+    }
+  ],
+  "version" : 3
+}

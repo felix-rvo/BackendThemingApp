@@ -13,6 +13,18 @@
 		9C187C7E2C7D20D4008B0C7F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9C187C7D2C7D20D4008B0C7F /* Base */; };
 		9C187C802C7D20D6008B0C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C187C7F2C7D20D6008B0C7F /* Assets.xcassets */; };
 		9C187C832C7D20D6008B0C7F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9C187C822C7D20D6008B0C7F /* Base */; };
+		9C187C8C2C7D20F5008B0C7F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187C8B2C7D20F5008B0C7F /* Theme.swift */; };
+		9C187C8E2C7D210F008B0C7F /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187C8D2C7D210F008B0C7F /* ThemeManager.swift */; };
+		9C187C912C7D2BEB008B0C7F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187C902C7D2BEB008B0C7F /* HomeViewController.swift */; };
+		9C187C932C7D2C05008B0C7F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187C922C7D2C05008B0C7F /* SearchViewController.swift */; };
+		9C187C952C7D2C1A008B0C7F /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187C942C7D2C1A008B0C7F /* FavoritesViewController.swift */; };
+		9C187C972C7D2C32008B0C7F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187C962C7D2C32008B0C7F /* ProfileViewController.swift */; };
+		9C187C9A2C7D2C59008B0C7F /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187C992C7D2C59008B0C7F /* UIColor+hex.swift */; };
+		9C187C9D2C7D355E008B0C7F /* Theming in Frameworks */ = {isa = PBXBuildFile; productRef = 9C187C9C2C7D355E008B0C7F /* Theming */; };
+		9C187CFC2C7E57DB008B0C7F /* FontFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187CFB2C7E57DB008B0C7F /* FontFeature.swift */; };
+		9C187CFE2C7E580D008B0C7F /* String+styled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187CFD2C7E580D008B0C7F /* String+styled.swift */; };
+		9C187D002C7E5857008B0C7F /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187CFF2C7E5857008B0C7F /* TextStyle.swift */; };
+		9C187D022C7E589D008B0C7F /* UIFont+customFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C187D012C7E589D008B0C7F /* UIFont+customFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,17 @@
 		9C187C7F2C7D20D6008B0C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C187C822C7D20D6008B0C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C187C842C7D20D6008B0C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C187C8B2C7D20F5008B0C7F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9C187C8D2C7D210F008B0C7F /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		9C187C902C7D2BEB008B0C7F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9C187C922C7D2C05008B0C7F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9C187C942C7D2C1A008B0C7F /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		9C187C962C7D2C32008B0C7F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9C187C992C7D2C59008B0C7F /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
+		9C187CFB2C7E57DB008B0C7F /* FontFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFeature.swift; sourceTree = "<group>"; };
+		9C187CFD2C7E580D008B0C7F /* String+styled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+styled.swift"; sourceTree = "<group>"; };
+		9C187CFF2C7E5857008B0C7F /* TextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		9C187D012C7E589D008B0C7F /* UIFont+customFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+customFont.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C187C9D2C7D355E008B0C7F /* Theming in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +80,9 @@
 		9C187C752C7D20D4008B0C7F /* BackendThemingApp */ = {
 			isa = PBXGroup;
 			children = (
+				9C187C982C7D2C44008B0C7F /* Extension */,
+				9C187C8F2C7D2BDF008B0C7F /* Screens */,
+				9C187C8A2C7D20EE008B0C7F /* Theme */,
 				9C187C762C7D20D4008B0C7F /* AppDelegate.swift */,
 				9C187C782C7D20D4008B0C7F /* SceneDelegate.swift */,
 				9C187C7A2C7D20D4008B0C7F /* ViewController.swift */,
@@ -65,6 +92,46 @@
 				9C187C842C7D20D6008B0C7F /* Info.plist */,
 			);
 			path = BackendThemingApp;
+			sourceTree = "<group>";
+		};
+		9C187C8A2C7D20EE008B0C7F /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				9C187CFA2C7E57D4008B0C7F /* Font */,
+				9C187C8B2C7D20F5008B0C7F /* Theme.swift */,
+				9C187C8D2C7D210F008B0C7F /* ThemeManager.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		9C187C8F2C7D2BDF008B0C7F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9C187C902C7D2BEB008B0C7F /* HomeViewController.swift */,
+				9C187C922C7D2C05008B0C7F /* SearchViewController.swift */,
+				9C187C942C7D2C1A008B0C7F /* FavoritesViewController.swift */,
+				9C187C962C7D2C32008B0C7F /* ProfileViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9C187C982C7D2C44008B0C7F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9C187C992C7D2C59008B0C7F /* UIColor+hex.swift */,
+				9C187CFD2C7E580D008B0C7F /* String+styled.swift */,
+				9C187D012C7E589D008B0C7F /* UIFont+customFont.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9C187CFA2C7E57D4008B0C7F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9C187CFB2C7E57DB008B0C7F /* FontFeature.swift */,
+				9C187CFF2C7E5857008B0C7F /* TextStyle.swift */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +150,9 @@
 			dependencies = (
 			);
 			name = BackendThemingApp;
+			packageProductDependencies = (
+				9C187C9C2C7D355E008B0C7F /* Theming */,
+			);
 			productName = BackendThemingApp;
 			productReference = 9C187C732C7D20D4008B0C7F /* BackendThemingApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +181,9 @@
 				Base,
 			);
 			mainGroup = 9C187C6A2C7D20D4008B0C7F;
+			packageReferences = (
+				9C187C9B2C7D355E008B0C7F /* XCRemoteSwiftPackageReference "ThemingStyleTest" */,
+			);
 			productRefGroup = 9C187C742C7D20D4008B0C7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +212,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C187C7B2C7D20D4008B0C7F /* ViewController.swift in Sources */,
+				9C187C932C7D2C05008B0C7F /* SearchViewController.swift in Sources */,
+				9C187C952C7D2C1A008B0C7F /* FavoritesViewController.swift in Sources */,
+				9C187C8C2C7D20F5008B0C7F /* Theme.swift in Sources */,
+				9C187C8E2C7D210F008B0C7F /* ThemeManager.swift in Sources */,
+				9C187D002C7E5857008B0C7F /* TextStyle.swift in Sources */,
+				9C187CFE2C7E580D008B0C7F /* String+styled.swift in Sources */,
 				9C187C772C7D20D4008B0C7F /* AppDelegate.swift in Sources */,
+				9C187D022C7E589D008B0C7F /* UIFont+customFont.swift in Sources */,
+				9C187C972C7D2C32008B0C7F /* ProfileViewController.swift in Sources */,
+				9C187C9A2C7D2C59008B0C7F /* UIColor+hex.swift in Sources */,
+				9C187CFC2C7E57DB008B0C7F /* FontFeature.swift in Sources */,
 				9C187C792C7D20D4008B0C7F /* SceneDelegate.swift in Sources */,
+				9C187C912C7D2BEB008B0C7F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +447,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9C187C9B2C7D355E008B0C7F /* XCRemoteSwiftPackageReference "ThemingStyleTest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/felix-rvo/ThemingStyleTest.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C187C9C2C7D355E008B0C7F /* Theming */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C187C9B2C7D355E008B0C7F /* XCRemoteSwiftPackageReference "ThemingStyleTest" */;
+			productName = Theming;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9C187C6B2C7D20D4008B0C7F /* Project object */;
 }
