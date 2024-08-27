@@ -42,8 +42,6 @@ class ThemeManager {
 
     func applyTheme(_ theme: ThemeResponse) {
         self.currentTheme = theme
-        // Notifica a otras partes de la app sobre el cambio de tema
         NotificationCenter.default.post(name: .themeDidChangeNotification, object: nil)
-        // Aquí podrías aplicar el tema a diferentes partes de tu aplicación
     }
 }
